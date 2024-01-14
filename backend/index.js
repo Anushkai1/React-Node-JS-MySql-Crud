@@ -36,7 +36,10 @@ app.post("/books", (req, res) => {
         req.body.pic
     ];
   
-
+    db.query(q, [values], (err, data) => {
+      if (err) return res.send(err);
+      return res.json(data);
+    });
   });
 
 
