@@ -14,7 +14,9 @@ app.use(express.json())
 app.use(cors())
 
 app.get("/", (req,res)=>{
-
+    res.json(
+        "<h1>sdsdsdsdsd</h1>" 
+    )
 })
 
 
