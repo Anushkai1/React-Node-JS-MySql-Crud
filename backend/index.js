@@ -19,6 +19,10 @@ app.get("/", (req,res)=>{
     )
 })
 
+app.get("/books", (req,res)=>{
+    const q = "select * from book"
+
+})
 
 
 
