@@ -30,7 +30,12 @@ app.get("/books", (req,res)=>{
 app.post("/books", (req, res) => {
     const q = "INSERT INTO `book`( `title`, `dec`, `pic`) VALUES (?)";
   
-
+    const values=[
+        req.body.title,
+        req.body.desc,
+        req.body.pic
+    ];
+  
 
   });
 
