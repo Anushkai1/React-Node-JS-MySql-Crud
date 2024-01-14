@@ -42,7 +42,12 @@ app.post("/books", (req, res) => {
     });
   });
 
+  app.delete("/delete/:id", (req,res)=>{
+    const bookId = req.params.id;
+    const q = "DELETE FROM book where id = ?";
 
+
+  })
 
 
 app.listen(8800, ()=>{
