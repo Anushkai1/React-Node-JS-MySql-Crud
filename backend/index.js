@@ -51,7 +51,17 @@ app.post("/books", (req, res) => {
 
   })
 
+  app.put("/books/:id", (req,res)=>{
+    const bookId = req.params.id;
+    const q = "UPDATE `book` SET `title`=?,`dec`=?,`pic`=? WHERE `id`=?";
 
+    const values = [
+        req.body.title,
+        req.body.desc,
+        req.body.pic]
+
+
+  })
 app.listen(8800, ()=>{
     console.log("Connected to backend")
 })
