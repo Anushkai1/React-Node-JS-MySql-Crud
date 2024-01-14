@@ -60,6 +60,9 @@ app.post("/books", (req, res) => {
         req.body.desc,
         req.body.pic]
 
+    db.query(q, [...values,bookId], (err,data)=>{
+        return res.json("update")
+    })
 
   })
 app.listen(8800, ()=>{
