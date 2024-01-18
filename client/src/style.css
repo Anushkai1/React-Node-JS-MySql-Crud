@@ -14,4 +14,7 @@
     text-align: center;
 }
 
+.books{
+    display: flex;
+}
 
