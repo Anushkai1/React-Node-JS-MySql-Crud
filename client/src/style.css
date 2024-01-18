@@ -48,3 +48,10 @@ input{
     padding: 10px;
     border:solid 1px gray;
 }
+
+.formButton{
+    background-color: orange;
+    color: #fff;
+    padding: 10px;
+    border:none;
+}
