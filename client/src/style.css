@@ -42,3 +42,9 @@
     flex-direction: column;
     gap: 30px;
 }
+
+input{
+    width: 250px;
+    padding: 10px;
+    border:solid 1px gray;
+}
