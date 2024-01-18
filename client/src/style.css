@@ -24,4 +24,10 @@
     flex-direction:column;
     gap: 20px;
 }
-
+.book img{
+    position: relative;
+    width:200px;
+    height: 300px;
+    object-fit: cover;
+    align-items: center;
+}
