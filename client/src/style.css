@@ -36,3 +36,9 @@
     width: 150px;
     cursor: pointer;   
 }
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
