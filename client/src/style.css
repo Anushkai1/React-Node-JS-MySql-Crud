@@ -31,3 +31,8 @@
     object-fit: cover;
     align-items: center;
 }
+.delete, .update{
+    padding: 5px;
+    width: 150px;
+    cursor: pointer;   
+}
