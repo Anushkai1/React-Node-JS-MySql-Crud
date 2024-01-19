@@ -21,7 +21,10 @@ const Add = () => {
 
   console.log(book);
 
+  const handleClick = async (e) => {
+    e.preventDefault();
 
+  };
 
 
 }
