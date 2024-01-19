@@ -19,6 +19,8 @@ const Add = () => {
     setBook((prev)=>({...prev, [e.target.name]:e.target.value}))
   }
 
+  console.log(book);
+
 
 
 
