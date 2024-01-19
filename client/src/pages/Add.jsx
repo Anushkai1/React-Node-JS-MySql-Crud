@@ -32,7 +32,15 @@ const Add = () => {
     }
   };
 
-
+  return (
+    <div className='form'>
+      <h1>ADD NEW Book</h1>
+      <input type="text" name="title" placeholder='Title' onChange={handleChange}/>
+      <input type="text" name="desc" placeholder='Desc' onChange={handleChange}/>
+      <input type="file"  name="pic" onChange={handleChange}/>
+      <button onClick={handleClick}>ADD</button>
+    </div>
+  )
 }
 
 export default Add
