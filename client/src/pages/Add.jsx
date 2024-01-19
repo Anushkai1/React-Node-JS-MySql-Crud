@@ -11,6 +11,9 @@ const Add = () => {
     pic:""
   });
 
+  const [error,setError] = useState(false);
+
+
 
 
 }
