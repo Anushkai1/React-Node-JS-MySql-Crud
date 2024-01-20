@@ -14,7 +14,7 @@ const Books = () => {
                 console.log(err)
             }
         }
-
+        fetachAllBooks()
     },[])
         
 
