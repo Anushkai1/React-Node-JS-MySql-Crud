@@ -27,7 +27,11 @@ const handleDelete = async (id)=>{
 }
   return (
     <div> 
+        <h1>BooK Shop</h1>
+        <div className='books'>
 
+        </div> 
+   
     </div>
   );
 }
