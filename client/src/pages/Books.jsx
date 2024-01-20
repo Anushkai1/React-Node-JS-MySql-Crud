@@ -18,7 +18,12 @@ const Books = () => {
     },[])
         
 const handleDelete = async (id)=>{
-
+    try{
+        await axios.delete("http://localhost:8800/delete/"+id);
+        window.location.reload();
+    }catch(err){
+        console.log(err);
+    }
 }
 
 }
