@@ -6,7 +6,14 @@ const Books = () => {
     const [books, setBooks] = useState([])
 
     useEffect(()=>{
-
+        const fetachAllBooks = async()=>{
+            try{
+                const res = await axios.get("http://localhost:8800/books")
+                setBooks(res.data);
+            }catch(err){
+                console.log(err)
+            }
+        }
 
     },[])
         
