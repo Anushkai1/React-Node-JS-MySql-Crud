@@ -35,6 +35,7 @@ const handleDelete = async (id)=>{
                     <h2>{book.title}</h2>
                     <p>{book.dec}</p>
                     <button className='delete' onClick={()=>handleDelete(book.id)}>DELETE</button>
+                    <button className='update'><Link to= {'/update/'+book.id}>UPDATE</Link></button>
                 </div>
             ))}
         </div> 
