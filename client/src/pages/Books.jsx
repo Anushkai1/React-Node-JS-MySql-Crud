@@ -31,7 +31,9 @@ const handleDelete = async (id)=>{
         <div className='books'>
             {books.map(book=>(
                 <div className="book" key={book.id}>
-    
+                    {book.pic &&  <img src={book.pic} alt=""/>}
+                    <h2>{book.title}</h2>
+                    <p>{book.dec}</p>
                 </div>
             ))}
         </div> 
