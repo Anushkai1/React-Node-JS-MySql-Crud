@@ -39,7 +39,10 @@ const handleDelete = async (id)=>{
                 </div>
             ))}
         </div> 
-   
+        <button>
+        
+            <Link to="/add">ADD new Book</Link>
+        </button>   
     </div>
   );
 }
