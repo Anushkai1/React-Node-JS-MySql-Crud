@@ -34,6 +34,7 @@ const handleDelete = async (id)=>{
                     {book.pic &&  <img src={book.pic} alt=""/>}
                     <h2>{book.title}</h2>
                     <p>{book.dec}</p>
+                    <button className='delete' onClick={()=>handleDelete(book.id)}>DELETE</button>
                 </div>
             ))}
         </div> 
