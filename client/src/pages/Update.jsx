@@ -16,7 +16,9 @@ const Update = () => {
   const navigate = useNavigate();
   const location = useLocation().pathname.split("/")[2];
 
+  const handleChange = (e)=>{
 
+  }
 
 
 
