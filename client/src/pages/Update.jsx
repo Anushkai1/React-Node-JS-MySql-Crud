@@ -13,6 +13,8 @@ const Update = () => {
 
   const [error,setError] = useState(false);
 
+  const navigate = useNavigate();
+
 
 
 
