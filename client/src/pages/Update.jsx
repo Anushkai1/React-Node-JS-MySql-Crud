@@ -11,7 +11,7 @@ const Update = () => {
     pic:""
   });
 
-
+  const [error,setError] = useState(false);
 
 
 
