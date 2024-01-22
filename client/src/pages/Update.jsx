@@ -17,7 +17,7 @@ const Update = () => {
   const location = useLocation().pathname.split("/")[2];
 
   const handleChange = (e)=>{
-
+    setBook((prev)=>({...prev, [e.target.name]:e.target.value}))
   }
 
 
