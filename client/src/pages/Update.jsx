@@ -6,7 +6,9 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 const Update = () => {
 
   const [book,setBook]=useState({
-
+    title:"",
+    dec:"",
+    pic:""
   });
 
 
