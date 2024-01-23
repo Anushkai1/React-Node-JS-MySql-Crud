@@ -24,7 +24,13 @@ const Update = () => {
 
   const handleClick = async (e) => {
     e.preventDefault();
-
+    try {
+      await axios.put("http://localhost:8800/books/"+location, book);
+      navigate("/");
+    } catch (err) {
+      console.log(err);
+      setError(true)
+    }
   };
 
 }
