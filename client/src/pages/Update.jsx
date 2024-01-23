@@ -39,7 +39,7 @@ const Update = () => {
       <input type="text" name="title" placeholder='Title' onChange={handleChange}/>
       <input type="text" name="desc" placeholder='Desc' onChange={handleChange}/>
       <input type="file"  name="pic" onChange={handleChange}/>
-
+      <button onClick={handleClick} className="formButton">ADD</button>
     </div>
   )
 }
