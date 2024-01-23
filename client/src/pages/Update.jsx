@@ -34,7 +34,10 @@ const Update = () => {
   };
 
   return (
+    <div className='form'>
+      <h1>Update Book</h1>
 
+    </div>
   )
 }
 
