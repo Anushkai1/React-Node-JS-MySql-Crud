@@ -36,6 +36,7 @@ const Update = () => {
   return (
     <div className='form'>
       <h1>Update Book</h1>
+      <input type="text" name="title" placeholder='Title' onChange={handleChange}/>
 
     </div>
   )
