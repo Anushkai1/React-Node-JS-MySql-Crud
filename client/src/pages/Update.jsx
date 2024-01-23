@@ -22,7 +22,9 @@ const Update = () => {
 
   console.log(location);
 
+  const handleClick = async (e) => {
 
+  };
 
 }
 
